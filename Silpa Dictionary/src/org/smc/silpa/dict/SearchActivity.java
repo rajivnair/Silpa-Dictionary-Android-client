@@ -90,7 +90,7 @@ public class SearchActivity extends Activity {
 
 				ImageDownloader imageDownloader = new ImageDownloader();
 
-				imageDownloader.download(word, dict, result);
+				imageDownloader.download(word.trim(), dict, result);
 				InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 				imm.hideSoftInputFromWindow(keyword.getWindowToken(), 0);
 			}
