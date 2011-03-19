@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:id="@+id/layout_root"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+>
+
+	  <TextView android:id="@+id/client_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/client_credits"
+      />
+      <TextView android:id="@+id/api_text"
+      		  android:paddingTop="10dp"
+      		  android:layout_below="@id/client_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/api_credits"
+      /> 
+      <TextView android:id="@+id/silpa_text"
+      		  android:paddingTop="10dp"
+      		  android:layout_below="@id/api_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/silpa_credits"
+      />
+      <TextView android:id="@+id/silpa_member_text"
+      		  android:paddingTop="10dp"
+      		  android:layout_below="@id/silpa_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/silpa_allegiance"
+      />	
+  <!--
+      <TextView android:id="@+id/url_text"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:textColor="#FFF"
+              android:text="@string/credits"
+      />
+   -->
+  
+</RelativeLayout>

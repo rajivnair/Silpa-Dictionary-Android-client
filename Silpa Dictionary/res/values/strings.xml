@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silpa Dictionary for Indic Languages</string>
+    <string name="about_option">About</string>
+    <string name="exit_option">Exit</string>
+    <string name="client_credits">Android client by Rajiv R Nair [rajivnair.in]</string>
+    <string name="api_credits">Concept/Hacks on Silpa by aashik [aashiks.in]</string>
+    <string name="silpa_credits">Special thanks to Santhosh Thottingal, Vasudev Kamath and the Swathanthra Malayalam Computing community  </string>
+    <string name="silpa_allegiance">This application is part of the Swathanthra Indian Language Computing Project\n\nhttp://silpa.org.in\n\nhttp://smc.org.in</string> 
+    <string-array name="lang_array">
+        <item>Malayalam</item>
+        <item>Hindi</item>
+        <!-- <item>Telugu</item>
+        <item>Tamil</item> 
+        <item>Kannada</item>
+        <item>Oriya</item> 
+        <item>Bengali</item>
+        <item>Gujarati</item> -->         
+    </string-array>
+    <color name="all_white">#EEEEEE</color>
+</resources>

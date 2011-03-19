@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/all_white"
+>
+     <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="70px"
+        android:background="@android:drawable/editbox_background"
+     />
+    <Spinner 
+        android:id="@+id/lang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry"
+    />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="200dip"    
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lang"              
+        android:text="OK" />
+    <Button
+    	android:id="@+id/clear"
+    	android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ok"
+        android:layout_alignTop="@id/ok"
+        android:text="Clear" />
+        
+    <ImageView 
+    	android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_below="@id/ok" 
+        android:paddingTop="10dip"
+        android:layout_centerHorizontal="true"       
+   	/>
+</RelativeLayout>
