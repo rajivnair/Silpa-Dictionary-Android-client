@@ -14,7 +14,7 @@
         <item>Tamil</item> 
         <item>Kannada</item>
 <!--        <item>Oriya</item> -->
-<!--        <item>Bengali</item>-->
+        <item>Bengali</item>
 <!--        <item>Gujarati</item>         -->
     </string-array>
     <color name="all_white">#EEEEEE</color>
