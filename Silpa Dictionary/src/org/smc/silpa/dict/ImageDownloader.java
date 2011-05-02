@@ -21,8 +21,15 @@ public class ImageDownloader {
 
 	public void download(String word, String lang, ImageView imageView) {
 	
-
-		String url = "http://silpa.org.in/Dictionary?image=y&text=" + word + "&dict=" + lang + "&imagewidth=400&imageheight=400&fontsize=22";
+		String method = null;
+		if(lang.equals("en-ml") || lang.equals("en-hi")){
+			// Normal Image method getimage_def
+			method = "y";
+		}else {
+			// Call wiktionary related method get_wiktionary_image_def
+			method = "w";
+		}
+		String url = "http://silpa.org.in/Dictionary?image="+method+"&text=" + word + "&dict=" + lang + "&imagewidth=0&imageheight=0&fontsize=18";
 
 
 		BitmapDownloaderTask task = new BitmapDownloaderTask(imageView);
